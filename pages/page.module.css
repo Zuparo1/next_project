@@ -1,0 +1,84 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.link:hover {
+    background-color: #0056b3;
+}
+
+.animal-list {
+    list-style: none;
+    padding: 0;
+
+}
+
+.animalitem {
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.animalitem:hover {
+    background-color: #f1f10f10;
+}
+
+.inputfield {
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.addbutton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addbutton:hover{
+    background-color: #010bff
+}
+
+.homeLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.homeLink:hover {
+    background-color: #333;
+}

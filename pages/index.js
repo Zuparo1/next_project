@@ -6,10 +6,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div>
-        <h1>Animal Page</h1>
+      <div className={styles.container}>
+        <h1 className={styles.title}> Animal Page</h1>
         <Link href="/zoo">
-            Navigate to the zoo
+            <p className={styles.link} >Navigate to the zoo</p>
         </Link>
       </div>
     </main>
